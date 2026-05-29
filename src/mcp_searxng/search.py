@@ -39,7 +39,6 @@ class Infobox(BaseModel):
 
 class Response(BaseModel):
     query: str
-    number_of_results: int
     results: list[SearchResult]
     # answers: list[str]
     # corrections: list[str]
